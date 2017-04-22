@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [accept-language (v3.0.15)](https://github.com/tinganho/node-accept-language)  [![npm package](https://img.shields.io/npm/v/npmtest-accept-language.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accept-language) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accept-language.svg)](https://travis-ci.org/npmtest/node-npmtest-accept-language)",
+    "description": "#### basic test coverage for  [accept-language (v3.0.15)](https://github.com/tinganho/node-accept-language)  [![npm package](https://img.shields.io/npm/v/npmtest-accept-language.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accept-language) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accept-language.svg)](https://travis-ci.org/npmtest/node-npmtest-accept-language)",
     "devDependencies": {
         "accept-language": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.23"
 }

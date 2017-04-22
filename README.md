@@ -1,6 +1,6 @@
 # npmtest-accept-language
 
-#### test coverage for  [accept-language (v3.0.15)](https://github.com/tinganho/node-accept-language)  [![npm package](https://img.shields.io/npm/v/npmtest-accept-language.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accept-language) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accept-language.svg)](https://travis-ci.org/npmtest/node-npmtest-accept-language)
+#### basic test coverage for  [accept-language (v3.0.15)](https://github.com/tinganho/node-accept-language)  [![npm package](https://img.shields.io/npm/v/npmtest-accept-language.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accept-language) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accept-language.svg)](https://travis-ci.org/npmtest/node-npmtest-accept-language)
 
 #### Accept-Language parser for nodejs
 
@@ -80,7 +80,8 @@
         "test": "node node_modules/mocha/bin/mocha Build/Tests/Test.js"
     },
     "types": "Library/Typings.d.ts",
-    "version": "3.0.15"
+    "version": "3.0.15",
+    "bin": {}
 }
 ```
 
